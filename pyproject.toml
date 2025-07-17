@@ -1,11 +1,13 @@
 [project]
-name = "repl-nix-workspace"
+name = "saleschatai"
 version = "0.1.0"
-description = "Add your description here"
+description = "LeadMate CRM AI chatbot"
 requires-python = ">=3.11"
 dependencies = [
     "streamlit>=1.47.0",
     "python-dotenv>=1.0.0",
     "google-generativeai>=0.4.1"
-
 ]
+
+[tool.pdm]
+package-mode = false
